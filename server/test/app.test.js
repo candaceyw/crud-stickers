@@ -31,15 +31,15 @@ describe('CRUD Stickers', () => {
 			});
 	});
 
-	it('Lists a record by id', (done) => {
+	it('Show one record by id', (done) => {
 		request(app)
-			.get('/api/v1/stickers/1')
+			.get('/api/v1/stickers/5')
 			.set('Accept', 'application/json')
 			.expect('Content-Type', /json/)
 			.expect(200)
 			.then((response) => {
 				expect(response.body).to.be.a('object');
-				expect(response.body).to.deep.equal(fixtures.stickers[0]);
+				expect(response.body).to.deep.equal(fixtures.stickers[4]);
 				done();
 			});
 	});
