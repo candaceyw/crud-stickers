@@ -62,14 +62,14 @@ We'll be using:
   - [x] Validate sticker!
   - [x] Create query
   - [x] Add test
-- [ ] Update a record with PUT /api/v1/stickers/:id
+- [x] Update a record with PUT /api/v1/stickers/:id
   - [x] Create route
   - [x] Validate id
   - [x] Validate updates
   - [x] Create query
-  - [ ] Add test
-- [ ] Delete a record with DELETE /api/v1/stickers/:id
-  - [ ] Create route
-  - [ ] Validate id
-  - [ ] Create query
-  - [ ] Add test
+  - [x] Add test
+- [x] Delete a record with DELETE /api/v1/stickers/:id
+  - [x] Create route
+  - [x] Validate id
+  - [x] Create query
+  - [x] Add test
