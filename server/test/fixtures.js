@@ -64,6 +64,14 @@ const stickers = [
 	},
 ];
 
+const sticker = {
+	title: 'JavaScript',
+	description: 'JS Logo',
+	rating: 10,
+	url: 'http://devstickers.com/assets/img/pro/i4eg.png',
+};
+
 module.exports = {
 	stickers,
+	sticker,
 };

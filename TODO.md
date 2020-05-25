@@ -57,16 +57,16 @@ We'll be using:
   - [x] Create query
   - [x] Create route
   - [x] Add test
-- [ ] Create a record with POST /api/v1/stickers
+- [x] Create a record with POST /api/v1/stickers
   - [x] Create route
   - [x] Validate sticker!
   - [x] Create query
-  - [ ] Add test
+  - [x] Add test
 - [ ] Update a record with PUT /api/v1/stickers/:id
-  - [ ] Create route
-  - [ ] Validate id
-  - [ ] Validate updates
-  - [ ] Create query
+  - [x] Create route
+  - [x] Validate id
+  - [x] Validate updates
+  - [x] Create query
   - [ ] Add test
 - [ ] Delete a record with DELETE /api/v1/stickers/:id
   - [ ] Create route
